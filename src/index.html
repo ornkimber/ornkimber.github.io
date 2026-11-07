@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Small tools for everyday tasks. A considered collection of useful software, one ordinary problem at a time.">
+  <meta name="theme-color" content="#f5f3ed">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self' https://api.github.com; base-uri 'none'; form-action 'none'; object-src 'none'">
+  <meta property="og:title" content="Small Tools — Less friction, one task at a time">
+  <meta property="og:description" content="A small collection of useful software for everyday tasks.">
+  <meta property="og:type" content="website">
+  <title>Small Tools — Less friction, one task at a time</title>
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./app.mjs"></script>
+</head>
+<body>
+  <a class="skip-link" href="#tools">Skip to the tools</a>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="wordmark" href="./" aria-label="Small Tools home"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><rect x="6" y="12" width="20" height="14" rx="3" stroke="currentColor" stroke-width="1.7"/><path d="M11 12V9a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v3M6 18h20M14 16v4h4v-4" stroke="currentColor" stroke-width="1.7"/></svg></span>small tools<span class="wordmark-period">.</span></a>
+      <nav aria-label="Main navigation"><a href="#tools">The tools</a><a href="#about">The idea <span aria-hidden="true">↗</span></a></nav>
+    </header>
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy"><p class="eyebrow"><span class="tiny-square" aria-hidden="true"></span> A SMALL COLLECTION OF USEFUL THINGS</p>
+          <h1 id="hero-title">Small tools.<br><span>Less friction.</span></h1>
+          <p class="hero-description">For the ordinary tasks that could be a little easier.<br class="desktop-break"> Simple software with a specific job to do.</p>
+          <a class="browse-link" href="#tools">Find something useful <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-object" aria-hidden="true"><div class="object-shadow"></div><div class="object-paper paper-one"><span></span><span></span><span></span></div><div class="object-paper paper-two"><svg viewBox="0 0 48 48" fill="none"><path d="M24 9v15m-10-9a15 15 0 1 0 20 0" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg></div><div class="toolbox-back"></div><div class="toolbox-front"><span class="box-slot"></span><span class="box-label">EVERYDAY<br>ESSENTIALS</span><span class="box-rivet left"></span><span class="box-rivet right"></span></div><span class="object-caption">A place for things that help.</span></div>
+      </section>
+      <section class="collection" id="tools" aria-labelledby="collection-title">
+        <div class="section-heading"><div><p class="eyebrow">TAKE A LOOK AROUND</p><h2 id="collection-title">The toolbox <span id="tool-count" class="tool-count" aria-live="polite"><!-- TOOL_COUNT --></span></h2></div>
+          <div id="filters" class="filters" role="group" aria-label="Filter tools" hidden><button type="button" data-filter="All" aria-pressed="true">All tools</button><button type="button" data-filter="Documents" aria-pressed="false">Documents</button><button type="button" data-filter="Utilities" aria-pressed="false">Utilities</button><button type="button" data-filter="Other" aria-pressed="false" hidden>Other</button></div>
+        </div>
+        <div id="tool-grid" class="tool-grid"><!-- TOOL_CARDS --></div>
+        <div class="collection-footnote"><span class="small-plus" aria-hidden="true">+</span> A small collection, with room to grow. <span id="collection-status" class="collection-status" role="status">Saved collection</span></div>
+      </section>
+      <section class="about" id="about" aria-labelledby="about-title"><div><p class="eyebrow">THE IDEA IS SIMPLE</p><h2 id="about-title">Useful is enough.</h2></div><div class="about-copy"><p>A recurring task. A small annoyance. Something that takes a few more steps than it should.</p><p>That’s where these tools start. Each one has a particular job, and earns its place here by being useful. Take what helps. Leave the rest.</p><span class="about-signoff">Small by design. Open to explore.</span></div></section>
+    </main>
+    <footer class="site-footer"><a href="./" class="footer-brand">small tools.</a><span>Less friction, one task at a time.</span><a href="https://github.com/ornkimber/ornkimber.github.io">Page source <span aria-hidden="true">↗</span></a></footer>
+  </div>
+  <script type="application/json" id="site-config"><!-- SITE_CONFIG --></script>
+</body>
+</html>

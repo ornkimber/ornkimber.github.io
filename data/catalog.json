@@ -1,0 +1,31 @@
+{
+  "owner": "ornkimber",
+  "topic": "toolbox-listed",
+  "generatedAt": "2026-11-07T07:29:20.852Z",
+  "projects": [
+    {
+      "name": "resume-studio",
+      "title": "Resume Studio",
+      "description": "Give your résumé a little breathing room. Edit your content, compare versions, and export a consistently styled Word document.",
+      "category": "Documents",
+      "platform": "Windows",
+      "visual": "document",
+      "detail": "YAML or TOML in. A polished DOCX out.",
+      "order": 1,
+      "url": "https://github.com/ornkimber/resume-studio",
+      "website": null
+    },
+    {
+      "name": "LANnihilator",
+      "title": "LANnihilator",
+      "description": "A small, very deliberate switch for your Ethernet connection. Pick a physical adapter, lift the cover, and disconnect or reconnect it.",
+      "category": "Utilities",
+      "platform": "Windows",
+      "visual": "switch",
+      "detail": "One selected Ethernet adapter. One big button.",
+      "order": 2,
+      "url": "https://github.com/ornkimber/LANnihilator",
+      "website": null
+    }
+  ]
+}

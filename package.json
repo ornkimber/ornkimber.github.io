@@ -1,0 +1,19 @@
+{
+  "name": "small-tools",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.16"
+  },
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "sync": "node scripts/sync.mjs",
+    "test": "node --test tests/catalog.test.mjs",
+    "test:ui": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.65.0"
+  }
+}
